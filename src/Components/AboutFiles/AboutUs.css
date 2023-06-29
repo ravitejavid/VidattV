@@ -1,0 +1,299 @@
+.Abt1{
+    margin: 5% 0;
+}
+.box1{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    width: 100%;
+
+    height: auto;
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.01em;
+color: #222222;
+}
+
+.box2{
+    
+    width: 100%;
+    line-height: 28px;
+    height: auto;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.01em;
+color: #222222;
+}
+/*  */
+.boxh2{
+   
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* letter-spacing: -2px; */
+color: #222222;
+}
+.Aboutcardholder{
+    background-color: rgba(238, 244, 253, 1);
+    width: 100vw;
+    height: 100%;
+    padding: 4% 0;
+}
+
+.box2text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2em;
+color: #222222;
+}
+
+.box2text1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;  
+    line-height: 28px;
+    color: #6B6B6B;
+}
+#AccGrid{
+    margin: 0 -3% 0 0 ;
+}
+.acard{
+    background: #FFFFFF;
+    box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+border-radius: 6.22769px;
+width: 90%;
+margin: 3% 7%;
+height: 50vh;
+}
+.acard div{
+  
+  /* height: 40vh; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin:3% 5%;
+    gap: -8em;
+}
+.acardimgs img{
+    margin: 10% 0 -29% 0;
+}
+
+/* Vision and founder css */
+.center1{
+    display: none;
+    margin:2% 5%;
+}
+.center1 div{
+  background-color: rgba(255, 243, 219, 1);
+}
+.boxh2 .ourvis{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20vh;
+}
+.ourText{
+    display: flex;
+align-items: center;
+justify-content: center;
+height: 20vh;
+
+}
+
+.ourImg{
+    display: flex;
+    justify-content: center;
+}
+.ourImg img{
+  width: 100%;
+  margin: 1% 5%;
+}
+
+.bigAlert{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFF3DB;
+    padding: 2%;
+    margin: 0 4%;
+    border-radius: 10px;
+}
+.bigAlertcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+    .box1{
+       font-size: 2vw;
+    }
+  } */
+
+  
+                    @media screen and (max-width: 449px) {
+                        .bigAlert{
+                            display: none;
+                        }
+                        .Abt1{
+                            margin: 0;
+                        }
+                        .boxh2{
+                           
+                            font-size: 1.5em;
+                            font-weight: 700;
+                            font: bold;
+                            /* letter-spacing: none; */
+                         }
+                         .box2 {
+                            height: 25vh;
+                            margin-top: 0%;
+                            margin-bottom: 5%;
+                            line-height: 20px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                         }
+                         .box2text1{
+                   
+                            line-height: 20px;
+                            color: #6B6B6B;
+                        }
+                        .box1 .box1l{
+                            width: 100vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column; 
+                        }
+                        .boxh2 .ourvis{
+                            height: auto;
+                            width: 100vw;
+                            margin: 4% 0;
+                            text-align: center;
+                        }
+                        .ourText{
+                        height: 18vh;
+                        margin: 0 4%;
+                        }
+                        .visionRig{
+                            width: 80%;
+                            margin: 5% 0;
+                        }
+                      .center1{
+                        display: block;
+                      }
+                      .acardimgs img{
+                        margin: 0;
+                    }
+                    .acard{
+                        height: auto;
+                    }
+                    #AccGrid{
+                        margin: 0;
+                    }
+                    }
+  @media (min-width: 450px) and (max-width: 900px) {
+    .bigAlert{
+        display: none;
+    }
+    .Abt1{
+        margin: 0;
+    }
+    .acardimgs img{
+        margin: 10% 0 -29% 0;
+    }
+    #AccGrid{
+        margin: 0;
+    }
+    .boxh2{
+       
+        font-size: 4vw;
+        font-weight: 700;
+        font: bold;
+        /* letter-spacing: none; */
+     }
+     .box2 {
+        height: 20vh;
+        /* margin-top: -14%;
+        margin-bottom: 5%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    .box1 .box1l{
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    .boxh2 .ourvis{
+        height: auto;
+        margin-top: 5%;
+        width: 100vw;
+        text-align: center;
+    }
+    .ourText{
+    height: 20vh;
+    margin: 0 4%;
+    }
+    .visionRig{
+        width: 80%;
+        margin: 5% 0;
+    }
+  .ourImg{
+    margin: 0 4%;
+  }
+  .center1{
+    display: block;
+  }
+  .acard{
+    margin:3% 5%;
+    height: auto;
+    }
+ 
+}
+
+@media screen and (min-width: 1690px) {
+    .Abt1{
+        margin: 2% 0;
+    }
+    .box1l{
+        display: flex;
+    }
+    .boxh2{
+        margin: 0 2px;
+    }
+    .acard{
+    /* height: 30vh; */
+    }
+    .box2{
+   font-size: 1.5em;
+    }
+.box2text{
+    font-size: 2em;
+}
+.box2text1{
+    font-size: 1.4em;
+}
+    .ourvis{
+        font-size: 2em;
+    }
+    .visionRig{
+        font-size: 2em;
+    }
+    .acardimgs img{
+        margin: 10% 0 -29% 0;
+    }
+}

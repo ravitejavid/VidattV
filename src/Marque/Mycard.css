@@ -1,0 +1,117 @@
+.cardholder{
+   margin-bottom: 2%;
+}
+.carousel-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .cardiv{
+   
+  }
+.mycard {
+    width: 100vw;
+    width: calc(100vw / 2.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 35vw; */
+    height: auto;
+    /* background-color: red; */
+    margin:1rem;
+    color: white;
+   
+}
+.bg-color{
+background-color: rgba(228, 240, 247, 1);
+}
+.bg-color1{
+    background-color: rgba(255, 243, 219, 1);
+    }
+
+.bg-color2{
+    background-color: rgba(231, 247, 228, 1);
+    }
+
+.bg-color3{
+    background-color: rgba(228, 240, 247, 1);
+    }
+.mycard img{
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+.center{
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin: 1% 2%;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    gap: 10px;
+}
+.card1title{
+font-weight: 700;
+font-size: 2em;
+/* line-height: 40px; */
+color: #222222;
+letter-spacing: -2px;
+/* margin: 3% 0; */
+}
+.card1content{
+font-weight: 400;
+font-size: 1em;
+line-height: 28px;
+color: #222222;
+
+}
+
+@media (max-width: 480px) {
+    .mycard {
+        width: 100vw;
+        width: calc(100vw / 1.2);
+        
+    }
+    .card1title{
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 10px;
+        color: #222222;
+        }
+        .card1content{
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 28px;
+        color: #222222;
+        }
+  }
+
+  /* @media (min-width: 481px) and (max-width: 767px) {
+    .mycard {
+        width: 100vw;
+        width: calc(100vw / 2);
+    }
+  }
+
+
+  @media screen and (max-width: 960px) {
+   
+  } */
+  @media screen and (max-width: 960px) {
+    .card1title{
+        letter-spacing: 0px;
+        font-weight: 700;
+        }
+  
+  }
+  @media screen and (min-width: 1660px) {
+    .card1title{
+        font-weight: 700;
+        font-size: 2.5em;
+        line-height: 50px;
+        color: #222222;
+        }
+  
+  }

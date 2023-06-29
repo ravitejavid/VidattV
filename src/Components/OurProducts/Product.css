@@ -1,0 +1,520 @@
+.Fdiv1{
+    background: rgba(226, 235, 254, 1);
+border-radius: 4px;
+}
+.face1l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.topsecf{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #999CA0;
+}
+.topsecf1{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.face1l>div{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 4%;
+
+}
+.facesec1{
+    margin-top: -8%;
+}
+.face1l img{
+    width: 100%;
+ 
+ height: auto;
+}
+
+.faceh2text{
+    font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 48px;
+color: #222222;
+}
+.faceh2yellow{
+    font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 48px;
+color: #FFB319;
+}
+
+/* 2nd div */
+
+.f2div{
+    background: #FFF3DB;
+}
+
+.f2div>div{
+  margin-right: 5%;
+}
+.face1l{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 2% 5%;
+}
+.fcard1{
+   height: 55vh;
+   margin: 4% 0;
+    gap: 1.5em;
+    padding: 2%;
+    background: #FFFFFF;
+box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+border-radius: 6.22769px;
+}
+.fcardP{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6B;
+    margin: 0 2%;
+}
+
+.fcard1>div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 4%;
+}
+
+.fcardh2{
+    font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+color: #222222;
+}
+/* f3div */
+
+.f3div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    flex-wrap: wrap;
+}
+.f3card1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 5% 3%;
+    width: 182px;
+    padding: 0 2%;
+
+height: 232px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 34px rgba(255, 179, 25, 0.12), 0px 4px 4px rgba(255, 179, 25, 0.07), 0px 73.1754px 43.5938px rgba(0, 51, 153, 0.02), 0px 32.6954px 32.6954px rgba(0, 51, 153, 0.03), 0px 7.78461px 17.9046px rgba(0, 51, 153, 0.03), 0px 0px 0px rgba(0, 51, 153, 0.03);
+    border-radius: 6.22769px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 1.5em;
+line-height: 40px;
+color: #003399;
+}
+
+/* f4div */
+
+.f4div{
+    background: #F4F4F4;
+    padding: 2%;
+}
+
+.f4lcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f4lcard>div{
+margin: 4%;
+}
+
+.f4lcont{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 4%;
+}
+
+.f4l1t{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -1px;
+color: #003399;
+
+}
+.f4img {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.f4img img{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 4%;
+}
+.f4p{
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 20px;
+    color: #6B6B6B; 
+}
+/* f5  */
+.f5div{
+    background: #FFFFFF; 
+    padding: 2%;
+}
+
+/* f6div */
+.f6div{
+    background: #F0F5FE; 
+    padding: 2%;
+}
+
+/* Traffic */
+.facePtext{
+    /* font-style: normal; */
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #222222;
+}
+.fcard2>div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 4%;
+}
+
+.fcard2{
+    height: 58vh;
+    margin: 4% 0;
+     gap: 1.5em;
+     padding: 2%;
+     background: #FFFFFF;
+ box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+ border-radius: 6.22769px;
+ }
+.traf1{
+    margin-top: -11%;
+}
+.Tdiv1{
+    background-color: rgba(255, 243, 219, 1);
+}
+
+.T1{
+    margin: 0;
+    margin-bottom: 9%;
+}
+.T2div{
+    background: rgba(249, 249, 249, 1);
+}
+.T4div{
+    background: rgba(231, 247, 228, 1);
+    padding: 2%;
+}
+.T6div{
+    background-color: rgba(247, 228, 228, 1);
+}
+
+
+/* Traffic animation */
+.animated-textTRF1 {
+  
+    font-weight: 600;
+    min-width: 280px;
+  }
+
+.animated-textTRF1 span{
+    
+    position: relative;
+    width: auto;
+}
+
+.animated-textTRF1 span::before{
+    content: "Actionable intelligence";
+    color: rgba(255, 179, 25, 1);
+    font-size: 	2.8rem;
+    animation: wordss1 20s infinite;
+}
+
+.animated-textTRF1 span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: rgba(255, 243, 219, 1);
+    border-left: 2px solid #ff7f50;
+    right: -10px;
+    top: 0px;
+    animation: cursor .8s infinite, typing 20s steps(9) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes wordss1 {
+    0%,
+  25% {
+    content: "Actionable intelligence";
+  }
+  25%,
+  50% {
+    content: "Operational insights";
+  }
+  50%,
+  75% {
+    content: "Actionable intelligence";
+  }
+  75%,
+  100% {
+    content: "Operational insights";
+  }
+}
+
+@keyframes typing {
+    2.5%,
+    10%,
+    17.5%,
+    25%,
+    32.5%,
+    40%,
+    47.5%,
+    55%,
+    62.5%,
+    70%,
+    77.5%,
+    85%,
+    92.5% {
+      width: 0;
+    }
+    0%,
+    5%,
+    12.5%,
+    20%,
+    27.5%,
+    35%,
+    42.5%,
+    50%,
+    57.5%,
+    65%,
+    72.5%,
+    80%,
+    87.5%,
+    95% {
+      width: calc(100% + 8px);
+    }
+}
+
+.footer-img1{
+    /* background-image: url(); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../imgs/Face/ffoot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+  }
+  .footer-img2{
+    /* background-image: url(); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../imgs/Traffic/ffoot2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+  }
+  .centerfooter1{
+    display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  }
+.btn4center1{
+    display: flex;
+    justify-content: center;
+}
+  .buttonIcon1{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.7vw;
+    background-color: rgba(0, 51, 153, 1);
+    width: 12em;
+    height: 5vh;
+    border-radius: 5px;
+  }
+@media screen and (max-width: 900px) {
+    .footer-img1{
+        font-size: 3.5vw;
+      }
+      .footer-img2{
+        font-size: 3.5vw;
+      }
+      .buttonIcon1{
+        font-size: 2.5vw;
+      }
+    .topsecf{
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #999CA0;
+    }
+    .topsecf1{
+        font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    }
+    .faceh2text{    
+        font-size: 1.5em;
+        line-height: 35px;
+        }
+        .faceh2yellow{
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 18px;
+        }
+        /* .f3div img{
+            margin-left: 14vh;
+        } */
+        .f3div{
+            /* display: block;
+            margin-left: 20%;
+            */
+            display: flex;
+            flex-direction: column;
+        }
+        .f3card1{
+            width: 282px;
+        }
+        .fcard1{
+            height: auto;
+         }
+         .facesec1{
+            margin-top: 0%;
+        }
+        .onef{
+            margin-bottom: 15%;
+        }
+        .f4img img{
+         width: 90%;
+        }
+}
+@media screen and (min-width: 1690px) {
+    .face1l>div{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 3.1em;
+        margin-left: 0%;
+        letter-spacing: 0px;
+    }
+    .topsecf{
+        font-weight: 500;
+    font-size: 1.5em;
+    line-height: 24px;
+    color: #999CA0;
+    }
+    .topsecf1{
+        font-weight: 600;
+    font-size: 1.5em;
+    line-height: 24px;
+    color: #000000;
+    }
+    .onef img{
+        height: 60vh;
+        width: 100%;
+    }
+    .faceh2text{    
+    font-size: 3.5em;
+    line-height: 58px;
+    }
+    .faceh2yellow{
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 58px;
+    }
+    .fcard1{
+        height: 35vh;
+     }
+     .fcard2{
+        height: 40vh;
+        margin: 6% 0;
+       
+     }
+     .fcardh2{
+    font-weight: 600;
+    font-size: 42px;
+    }
+    .fcardP{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    /* f3div */
+.f3card1{
+    width: 282px;
+}
+.f3div{
+ padding: 0 15%;
+}
+
+.f4l1t{ 
+font-size: 30px;
+}
+
+.f4p{
+    font-weight: 450;
+    font-size: 1.2em;
+    line-height: 30px;
+  
+}
+
+.facePtext{
+line-height: 28px;
+font-size: 1.3em;
+width: 80%;
+}
+}

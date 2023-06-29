@@ -1,0 +1,73 @@
+.threeitem{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 10%;
+    /* margin-left: 10%; */
+    margin-top: 15%;
+}
+.three1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+.cust1{
+    font-weight: 600;
+font-size: 1.2em;
+color: #003399;
+letter-spacing: -1px;
+}
+.three1 h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;  
+    letter-spacing: -2px;
+    color: #313131;
+}
+.threT{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #6B6B6B;
+}
+.threeimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    height: auto; */
+    margin-top: 5%;
+    
+}
+.threeimg img{
+    width: 90%;
+        height:100%;
+   
+}
+
+@media screen and (max-width: 960px) {
+    .threeitem{
+        margin: 10%;
+        margin-bottom: 5%;
+    }
+    .three1{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+    .threeimg{
+    /* margin-top: -4%; */
+        margin: 2%;
+        
+    }
+   
+  }
+
+  @media screen and (min-width: 1670px) {
+    .threeimg{
+        height: 50vh;
+        margin-bottom: 2%;
+    }
+  }

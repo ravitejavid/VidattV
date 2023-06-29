@@ -1,0 +1,281 @@
+
+.section {
+display: flex;
+min-height: 70vh;
+margin: 10vh 0;
+position: relative;
+z-index: 2;
+}
+
+.section > * {
+width: 50%;
+}
+
+/* The container for the image */
+.section__img {
+position: relative;
+display: flex;
+}
+
+/* The inner container for the image */
+.section__img__inner {
+  margin: 5% 0;
+position: fixed;
+/* left: 10%;
+width: 40%; */
+top: 0;
+mix-blend-mode: multiply;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 80% 50%;
+filter: blur(30px);
+opacity: 0;
+transition: filter .6s ease, opacity .6s ease, background-position 0.8s ease;
+}
+.section__img__inner img{
+height: 100%;
+}
+/* The container for the text */
+.section__body {
+display: flex;
+align-items: center;
+position: relative;
+z-index: 10;
+}
+
+/* The container for the section title */
+.section__text {
+padding: 10vw;
+}
+
+/* The style for the active section */
+.section.active .section__img__inner {
+opacity: 1;
+background-position: 50% 50%;
+filter: blur(0);
+}
+
+/* The style for the section title */
+
+
+.section1 {
+  display: flex;
+ height: 100px;
+  }
+.section-final {
+  height: 0%;
+  /* position: relative; */
+}
+
+.section__img1 {
+ display: none;
+  }
+
+  .section__img__inner1 {
+    height: -10vh;
+    margin: 0;
+    }
+/*  */
+
+
+.fouritem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four2bg{
+    background: rgba(244, 244, 244, 1);
+ padding: 5%;
+    
+}
+.four2bg > h1{
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    margin-bottom: 3%;
+    /* margin-left: 5%;
+    margin: 2%; */
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.fourcard{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 90%;
+height: 100%;
+background: #FFFFFF;
+/* border: 3px solid red; */
+box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+border-radius: 6.22769px;
+}
+.fourcard1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 90%;
+height: 100%;
+background: #FFFFFF;
+/* border: 3px solid red; */
+box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+border-radius: 6.22769px;
+}
+.fourcard2{
+  display: flex;
+align-items: center;
+justify-content: center;
+
+width: 90%;
+height: 100%;
+background: #FFFFFF;
+/* border: 3px solid red; */
+box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03), 0px 7.78461px 17.9046px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+border-radius: 6.22769px;
+}
+.fourcontent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 8% 12%;
+    /* padding-top: 10%; */
+}
+
+
+  /* 2nd marque */
+  .marqueheading{
+ 
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .marquee {
+    /* height: 100%; */
+    width: 100vw;
+    height: 69vh;
+    overflow: hidden;
+    position: relative;
+    margin: 2% 1%;
+    margin-bottom: 5%;
+  }
+
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    margin: 70px 0;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee--inner:hover {
+    animation-play-state: paused;
+  }
+  
+  /* .half {
+    float: left;
+    width: 10%;
+  } */
+  
+  span {
+    float: left;
+    width: 50%;
+  }
+  span img{
+    /* margin-left: -0.5%; */
+  }
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
+
+
+
+ 
+  /* footer */
+
+  .footer-img{
+    /* background-image: url(); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../imgs/footer1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+  }
+
+  .centerfooter{
+    display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  }
+.btn4center{
+    display: flex;
+    justify-content: center;
+}
+  .buttonIcon{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.7vw;
+    background-color: rgba(0, 51, 153, 1);
+    width: 12em;
+    height: 5vh;
+    border-radius: 5px;
+  }
+.icon4{
+  font-size: 1vw;
+}
+
+#buttonfour{
+ text-transform: capitalize;
+ background-color: #003399;
+}
+  @media screen and (max-width: 960px) {
+    .marqueheading{
+      font-size: 1.5em;
+    }
+    .marquee {
+      height: 280px;
+      width: 800px;
+      padding-bottom: 6%;
+    }
+    .marquee--inner img{
+     width: 35%;
+    }
+   
+    .four2bg > h1{
+      justify-content: center;
+      font-size: 1.3em;
+      font-weight: 700;
+  }
+  .footer-img{
+    font-size: 3.5vw;
+  }
+   .buttonIcon{
+    font-size: 2.5vw;
+  }
+  .icon4{
+    font-size: 2.5vw;
+  }
+  .fourcard { 
+    width: 100%;
+  }
+
+  .fourcard1 { 
+    width: 100%;
+  }
+   .fourcard1 { 
+    width: 100%;
+  }
+  .fourcard2 { 
+    width: 100%;
+  }
+  }

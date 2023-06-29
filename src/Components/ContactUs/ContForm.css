@@ -1,0 +1,189 @@
+.completecaontactholder{
+
+    width: 100vw;
+    background-color: rgba(238, 244, 253, 1);
+}
+.completecaontactholder1{
+   display:flex;
+   flex-direction: column;
+   gap: 2em;
+   margin-left: 6%;
+   /* margin-right: 4%; */
+   padding: 3% 0;
+ 
+}
+.conttaxt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conttaxth2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+/* identical to box height, or 108% */
+
+display: flex;
+align-items: center;
+/* letter-spacing: -2px; */
+
+color: #222222;
+}
+.gridtextfil{
+    display: flex;
+    align-items:center;
+ 
+}
+
+.gridtextfil div{
+width: 90%;
+}
+
+.gridtextfull{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: 9%;
+}
+.gridtextfull div{
+    width: 100%;
+    }
+.cardcontTT{
+    margin-right: 9%;
+}
+    .cardcont{
+        background: #FFFFFF;
+border: 0.666667px solid rgba(34, 34, 34, 0.12);
+border-radius: 5.33333px;
+padding: 2%;
+    }
+    .contcardin{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.3em;
+        line-height: 28px;
+    }
+    
+    /* animation css */
+    .modalcontainer>div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 5% 20%; */
+      
+    }
+    .modal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+      }
+      
+      .modal h2 {
+        color: #fff;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      
+      .modal button {
+        background-color: #fff;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+      }
+      
+      .modal button:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+
+      /* animation loading */
+    .aniContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text{
+        color: #fff;
+        /* margin-bottom: 25px; */
+    }
+
+    .loading{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .line-box{
+        margin: 2%;
+        padding: 2px;
+        width: 40%;
+        height: 20px;
+        /* border: 2px solid red; */
+        border: 2px solid #267591;
+        border-radius: 20px;
+    }
+    .line{
+        height: 20px;
+        border-radius: 20px;
+        background-color: rgb(202, 118, 49);
+        animation: loading 2s forwards cubic-bezier(0,0,0,0);
+    }
+
+    @keyframes loading {
+        0%{
+           width: 0%;
+        }
+        100%{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .gridtextfil div{
+            width: 100%;
+            margin-right: 5%;
+            }
+            .gridtextfull{
+                margin-right: 5%;
+            }
+            .cardcontTT{
+                margin-right: 5%;
+            }
+            .conttaxth2{
+                font-size: 1.5em;
+            }
+    }
+
+
+    @media screen and (min-width: 1690px) {
+        .gridtextfil{
+            height: 10vh;;
+         
+        }
+        .gridtextfull{
+            height: 10vh;
+        }
+        .conttaxth2{
+            font-size: 3.5em;
+        }
+        }

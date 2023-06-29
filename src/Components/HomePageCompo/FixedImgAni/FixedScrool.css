@@ -1,0 +1,143 @@
+.scroolHeading1{
+    font-weight: 700;
+font-size: 2.5em;
+
+letter-spacing: -2px;
+color: #222222;
+margin: 5% 0 0 5%;
+}
+.sc2{
+    margin: 0;
+    margin-left: 5%;
+}
+.section {
+    display: flex; 
+    min-height: 0vh;
+    position: relative;
+    z-index: 2;
+  }
+.section > * {
+  width: 50%; 
+}
+.section-img {
+  position: relative;
+  display: flex;
+
+}
+.section-img-inner {
+  height: 100vh;
+  position: sticky;
+  left: 5%;
+  width: 80%;
+  top: 0;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  filter: blur(30px);
+  opacity: 0;
+  background-position: 50% 40%;
+  transition: .6s ease, opacity .6s ease, background-position .8s ease;
+}
+.section-body {
+  display: flex;
+  align-items: center;
+}
+.section-text {
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.ScroolText1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -2px;
+    color: #222222;
+}
+.ScroolText2{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #6B6B6B;
+}
+.ScroolText3{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #003399;
+}
+.section.active .section-img-inner {
+  opacity: 1;
+  background-position: 50% 50%;
+  filter: blur(0);
+}
+/* h2 {
+  font-size: 3vw;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+} */
+
+/* backgroundImage: "url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/44686/activa-6g-right-front-three-quarter.jpeg?q=80)" */
+
+.scroimg1{
+  background-image: url('../../../imgs/scrool1.png');
+}
+
+.scroimg2{
+  background-image: url('../../../imgs/scrool22.jpg');
+  width: 100%;
+}
+.scroimg3{
+  background-image: url('../../../imgs/scrool2[1].png');
+}
+
+.FixedGrid-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: -9%;
+  max-width: 100%;
+}
+.FixedInMobileScreen{
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .FixedInMobileScreen{
+    display: block;
+  }
+   .FixedInBigScreen{
+    display: none;
+   }
+   .section-text {
+    padding: 2vw 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .scroolHeading1{
+    font-weight: 700;
+font-size: 1.5em;
+letter-spacing: 0px;
+}
+}
+
+@media screen and (min-width: 1670px) {
+.ScroolText1{
+  font-size: 2.5em;
+  letter-spacing: 0px;
+}
+.ScroolText2{
+  font-size: 20px;
+  }
+
+  .ScroolText3{
+    font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+color: #003399;
+}
+}

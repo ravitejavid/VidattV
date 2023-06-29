@@ -1,0 +1,172 @@
+.car1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+}
+.carfz{
+    font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -2px;
+color: #222222;
+margin: 2% 0;
+}
+.boxp1{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+font-weight: 400;
+font-size: 1.1em;
+line-height: 28px;
+margin: 0 15%;
+/* or 156% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #222222;
+}
+
+.completeAccordian{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: #EEF4FD;
+    height: 100%;
+    padding: 0.5% 0;
+}
+.completeAccordian>div{
+    width: 95vw;
+
+}
+
+.Vicon{
+    position: absolute;
+    left: 85vw;
+    top: 32px;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 28px;
+    color: #3730A3;
+}
+.acco{
+    /* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 600;
+font-size: 1.4em;
+
+line-height: 36px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+/* letter-spacing: -2px; */
+
+color: #222222;
+}
+.acc{
+    display: flex;
+    /* width: 22vw; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.acc1{
+    display: flex;
+    /* width: 10vw; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.inAccoFull{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2% 3%;
+}
+.inAcco1{
+    font-style: normal;
+font-weight: 600;
+font-size: 1.1em;
+line-height: 28px;
+color: #222222;
+}
+/* Accordian card */
+.Accordiancard{
+ 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+}
+.Accordiancard>div{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+    background: #FFF3DB;
+    gap: 1em;
+    padding: 9% 5%;
+    border-radius: 4px;
+}
+.carecardtitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* display: flex;
+align-items: center; */
+letter-spacing: -1px;
+color: #222222;
+margin: 0 4%;
+}
+.carecontent{
+    display: flex;
+    align-items: center;
+}
+.carecardtitleholder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1elwnq4-MuiPaper-root-MuiAccordion-root" */
+
+.completeAccordian .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+    box-shadow: 0px 73.1754px 43.5938px rgba(0, 0, 0, 0.02), 0px 32.6954px 32.6954px rgba(0, 0, 0, 0.03);
+    border-radius: 6.22769px;
+}
+@media screen and (max-width: 960px) {
+    .Accordiancard>div{
+        width: auto;
+    }
+    .carfz{
+        font-weight: 700;
+    font-size: 1.5em;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #222222;
+    }
+.Vicon{
+display: none;
+}
+}
+
+
+@media screen and (min-width: 1690px) {
+    .Accordiancard>div{
+        width: 50%;
+    }
+    .Vicon{
+        position: absolute;
+        left: 90vw;
+        top: 32px;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 28px;
+        color: #3730A3;
+    }
+}

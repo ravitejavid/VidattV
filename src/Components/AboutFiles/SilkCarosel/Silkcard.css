@@ -1,0 +1,164 @@
+.silkfull-stp{
+    margin: 50px 0;
+}
+.slick-next.slick-disabled:before {
+    opacity: .25;
+
+}.slick-next:before {
+  font-family: 'Material Icons';
+  content: 'arrow_forward';
+    color: black;
+
+margin-left: 5px;
+padding: 10px;
+border: 2px solid black;
+border-radius: 50%;
+   
+}
+
+.slick-prev.slick-disabled:before {
+    opacity: .25;
+
+}.slick-prev:before {
+  font-family: 'Material Icons';
+  content: 'arrow_back';
+  color: black;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+   
+}
+#onearrow{
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  top:-59px;
+  left: 80%;
+}
+#twoArrow{
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  bottom:59px;
+  right: 13%;
+}
+/* cards details */
+.allEmpcards{
+    width: 94vw;
+    margin: 0 4%;
+    display: flex;
+    gap: 15px;
+}
+.cardtitle2{
+    font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  color: #222222
+  }
+.EmpCard-silk{
+    /* margin: 0 1%;
+    margin-right: 10%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* width: 100vw;
+    width: calc(100vw / 4.4); */
+
+  }
+ 
+  .EmpImg-s{
+    background: #E9E9E9;
+    /* width: 100%; */
+    padding:15%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+   .EmpImg-s img{
+  
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30vh;
+  }
+
+  .EmpName-s{
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 32px;
+    color: #222222;
+  }
+  .Empdetails-s{
+    margin-left: 1%;
+  }
+  .EmpRole-s{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: -1px;
+
+color: #003399;
+  }
+
+  @media (min-width: 250px) and (max-width: 480px) {
+   .slick-next:before {
+  padding: 6px;     
+  }
+  
+  .slick-prev:before {
+    padding: 6px; 
+     
+  }
+  .cardtitle2{
+letter-spacing: 0px;
+font-size: 16px;
+  }
+    #onearrow{
+      left: 65%;
+      top: -34px;
+    }
+    #twoArrow{
+      bottom:34px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 950px) {
+    .slick-next:before {
+   padding: 8px;     
+   }
+   
+   .slick-prev:before {
+     padding: 8px; 
+      
+   }
+     #onearrow{
+       left: 73%;
+       top: -38px;
+     }
+     #twoArrow{
+        bottom:38px;
+      }
+   }
+
+   /* @media (min-width: 951px) and (max-width: 1450px) {
+  
+     #onearrow{
+       left: 78%;
+       top: -49px;
+     }
+     #twoArrow{
+        bottom:48px;
+      }
+   } */
